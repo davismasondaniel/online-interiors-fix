@@ -2,7 +2,7 @@
 -- Use https://github.com/Bob74/bob74_ipl/wiki to edit below
 
 -- Arcadius Business Centre (Downtown Los Santos)
-Citizen.CreateThread(function()
+CreateThread(function()
     -- Getting the object to interact with
     ImportCEOGarage1 = exports['bob74_ipl']:GetImportCEOGarage1Object()
 

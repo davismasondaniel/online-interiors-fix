@@ -1,23 +1,5 @@
 local blips = {
 
-    -- Story Mode Houses
-    --{text = "Michael's House", color = 0, sprite = 40, coord = vector3(-817.93, 177.68, 72.22)},
-    --{text = "Franklin's House", color = 0, sprite = 40, coord = vector3(8.32, 539.75, 176.03)}, -- Mansion
-    --{text = "Franklin's House", color = 0, sprite = 40, coord = vector3(-14.19, -1442.09, 31.1)}, -- Yee Yee Ass Haircut, Aunt Denise
-	--{text = "Trevor's Trailer", color = 0, sprite = 40, coord = vector3(1981.51, 3819.35, 32.25)},
-	--{text = "Floyd's House", color = 0, sprite = 40, coord = vector3(-1157.31, -1516.72, 4.36)},
-	--{text = "Lester's House", color = 0, sprite = 40, coord = vector3(1274.65, -1720.83, 54.68)},
-	
-	-- Lester's Factory 
-    --{text = "Lester's Factory", color = 0, sprite = 475, coord = vector3(717.93, -976.46, 24.91)},
-	
-	
-	-- Simeon's Dealership 
-    --{text = "Simeon's Dealership", color = 0, sprite = 293, coord = vector3(-68.22, -1111.15, 25.91)},
-	
-	-- O'Neil Farm 
-    --{text = "O'Neil Farm", color = 0, sprite = 270, coord = vector3(2453.57, 4955.34, 44.96)},
-
     -- Apartments
     {text = "Apartment", color = 0, sprite = 40, coord = vector3(-911.91, -451.08, 39.61)},
     {text = "Apartment", color = 0, sprite = 40, coord = vector3(-268.911, -956.445, 31.223)},
@@ -71,11 +53,10 @@ local blips = {
     {text = "Hangar", color = 0, sprite = 569, coord = vector3(-1139.08, -3387.34, 13.94)},
 
     -- Vehicle Warehouse
-    {text = "Vehicle Warehouse", color = 0, sprite = 524, coord = vector3(-668.50, -2385.95, 13.93)},
-	{text = "Vehicle Warehouse", color = 0, sprite = 524, coord = vector3(266.64, -1159.73, 29.25)}, -- The Criminal Enterprises 
+	{text = "Vehicle Warehouse", color = 0, sprite = 524, coord = vector3(266.64, -1159.73, 29.25)},
 
     -- Crate Warehouses
-    {text = "Crate Warehouse", color = 0, sprite = 473, coord = vector3(926.66, -1560.23, 30.74)},
+    {text = "Crate Warehouse", color = 0, sprite = 473, coord = vector3(931.6342, -1546.9874, 30.8516)},
     {text = "Crate Warehouse", color = 0, sprite = 473, coord = vector3(-324.90, -1356.23, 31.30)},
     {text = "Crate Warehouse", color = 0, sprite = 473, coord = vector3(274.54, -3015.40, 5.70)},
 
@@ -87,33 +68,8 @@ local blips = {
     -- Nightclub
     {text = "Nightclub", color = 0, sprite = 614, coord = vector3(346.02, -977.81, 29.37)},
 
-    -- Aircraft Carrier
---    {text = "Aircraft Carrier", color = 0, sprite = 16, coord = vector3(3082.31, -4717.11, 15.26)},
-
-    -- Yacht
-    {text = "Yacht", color = 0, sprite = 455, coord = vector3(-2043.97, -1031.58, 11.98)},
-    {text = "Yacht", color = 0, sprite = 455, coord = vector3(-1363.72, 6734.10, 2.44)},
-
-    -- Arcade. Requires Enforcing Of Gamebuild. There are other locations, however I picked this one  --
-    {text = "Arcade", color = 0, sprite = 647, coord = vector3(758.76, -816.06, 26.29)},
-
-    -- Split Sides West Comedy Store
-    {text = "Split Sides West", color = 0, sprite = 102, coord = vector3(-430.17, 261.5, 82.32)},
-
-    -- LSIA
-    --{text = "LSIA", color = 0, sprite = 307, coord = vector3(-1045.95, -2751.59, 21.0)},
-
-    -- Morgue
-    --{text = "Morgue", color = 0, sprite = 61, coord = vector3(240.74, -1379.18, 33.55)},
-
-    -- Bahama Mamas
-    {text = "Bahama Mamas", color = 0, sprite = 93, coord = vector3(-1388.67, -586.68, 30.2)},
-
     -- Theater
     {text = "Movie Theater", color = 0, sprite = 135, coord = vector3(-1423.6, -215.54, 45.81)},
-
-    -- Martin Madrazo's Ranch
-    {text = "Martin Madrazo's Ranch", color = 0, sprite = 414, coord = vector3(1395.21, 1141.76, 114.4)},
 
     -- Submarine
     {text = "Submarine", color = 0, sprite = 308, coord = vector3(493.79, -3222.95, 10.5)},
@@ -129,113 +85,9 @@ local blips = {
 
     -- Cinema
     {text = "Cinema", color = 0, sprite = 135, coord = vector3(342.2, 170.33, 352.37)},
-
-    -- Arena Wars
-    -- {text = "Arena", color = 0, sprite = 84, coord = vector3(-283.5996, -1920.6, 29.94605)},
-
-    -- Police Stations --
-
-    -- Vespucci PD
-    {text = "Police Station", color = 0, sprite = 60, coord = vector3(-1107.68, -844.84, 19.32)},
-    -- Paleto Bay PD
-    {text = "Police Station", color = 0, sprite = 60, coord = vector3(-441.2, 6018.61, 31.54)},
-    -- Mission Row PD
-    {text = "Police Station", color = 0, sprite = 60, coord = vector3(434.15, -981.85, 30.71)},
-    -- Sandy Shores PD
-    {text = "Police Station", color = 0, sprite = 60, coord = vector3(1855.53, 3683.04, 34.27)},
 	
-    -- Fire Stations --
-    {text = "Fire Station", color = 0, sprite = 635, coord = vector3(1200.46, -1457.68, 34.88)},
-    {text = "Fire Station", color = 0, sprite = 635, coord = vector3(216.61, -1637.6, 29.49)},
-	
-
-    -- Hospitals --
-    {text = "Hospital", color = 0, sprite = 61, coord = vector3(291.7, -586.94, 43.2)},
-    {text = "Hospital", color = 0, sprite = 61, coord = vector3(266.69, -1432.62, 29.33)},
-
-    -- Humane Labs
-    {text = "Humane Labs", color = 0, sprite = 80, coord = vector3(3545.68, 3776.25, 29.36)},
-
-    -- Bar
-    {text = "Bar", color = 0, sprite = 93, coord = vector3(1992.45, 3058.73, 47.06)},
-    {text = "Bar", color = 0, sprite = 93, coord = vector3(-564.93, 271.58, 83.02)},
-
-    -- Vanilla Unicorn Strip Club 
-    {text = "Strip Club", color = 0, sprite = 121, coord = vector3(133.08, -1305.86, 29.16)},
-
-    -- Legion Square --
-    {text = "Legion Square", color = 0, sprite = 77, coord = vector3(189.13, -967.22, 29.82)},
-
-    -- Sandy Shores Airfield --
-    --{text = "Sandy Shores Airfield", color = 0, sprite = 584, coord = vector3(1341.36, 3109.89, 40.7)},
-
-    -- Stores --
-    {text = "Store", color = 0, sprite = 59, coord = vector3(28.88, -1351.34, 29.34)},
-    {text = "Store", color = 0, sprite = 59, coord = vector3(1159.52, -326.66, 69.22)},
-    {text = "Store", color = 0, sprite = 59, coord = vector3(1166.72, 2707.77, 38.16)},
-    {text = "Store", color = 0, sprite = 59, coord = vector3(544.59, 2669.36, 42.16)},
-    {text = "Store", color = 0, sprite = 59, coord = vector3(1393.16, 3601.69, 34.98)},
-    {text = "Store", color = 0, sprite = 59, coord = vector3(-1225.37, -904.8, 12.33)},
-    {text = "Store", color = 0, sprite = 59, coord = vector3(-3041.08, 589.04, 7.91)},
-    {text = "Store", color = 0, sprite = 59, coord = vector3(-2969.37, 390.49, 15.04)},
-    {text = "Store", color = 0, sprite = 59, coord = vector3(1701.39, 4927.68, 42.06)},
-    {text = "Store", color = 0, sprite = 59, coord = vector3(-51.51, -1755.9, 29.42)},
-    {text = "Store", color = 0, sprite = 59, coord = vector3(-3240.84, 1004.61, 12.83)},
-    {text = "Store", color = 0, sprite = 59, coord = vector3(2681.04, 3282.96, 55.24)},
-    {text = "Store", color = 0, sprite = 59, coord = vector3(1965.57, 3740.15, 32.33)},
-    {text = "Store", color = 0, sprite = 59, coord = vector3(-1488.89, -381.45, 40.16)},
-    {text = "Store", color = 0, sprite = 59, coord = vector3(376.89, 324.78, 103.57)},
-    {text = "Store", color = 0, sprite = 59, coord = vector3(2558.23, 385.5, 108.62)},
-    {text = "Store", color = 0, sprite = 59, coord = vector3(1141.72, -980.74, 46.21)},
-    {text = "Store", color = 0, sprite = 59, coord = vector3(1730.59, 6411.09, 35.00)},
-    {text = "Store", color = 0, sprite = 59, coord = vector3(-1826.39, 792.25, 142.76)},
-    {text = "Store", color = 0, sprite = 59, coord = vector3(-712.36, -911.79, 23.76)},
-    {text = "Store", color = 0, sprite = 59, coord = vector3(-492.38, -342.63, 42.32)},
-
-    -- Del Perro Pier --
-    {text = "Del Perro Pier", color = 0, sprite = 266, coord = vector3(-1843.5, -1219.53, 13.02)},
-
-    -- Jewlery Store --
-    {text = "Vangelico Jewlery", color = 0, sprite = 617, coord = vector3(-631.57, -237.9, 38.08)},
-
-    -- Cluckin' Bell Factory --
-    {text = "Cluckin' Bell Factory", color = 0, sprite = 84, coord = vector3(-71.49, 6266.47, 31.15)},
-
-	-- Casino --
-    {text = "Casino", color = 0, sprite = 679, coord = vector3(917.3, 50.76, 80.9)},
-	
-
-	-- Bolingbroke Penitentiary --
-    --{text = "Bolingbroke Penitentiary", color = 0, sprite = 526, coord = vector3(1851.78, 2606.26, 45.67)},
-	
-	-- Fort Zancudo --
-    {text = "Fort Zancudo", color = 0, sprite = 421, coord = vector3(-2067.11, 3097.35,32.81)},
-	
-	-- Benny's Original Motorwork --
-    {text = "Benny's Original Motorwork", color = 0, sprite = 446, coord = vector3(-205.57, -1309.5, 30.72)},
-	
-	-- Los Santos Customs --
-    {text = "Los Santos Customs", color = 0, sprite = 72, coord = vector3(-364.84, -131.46, 38.68)},
-	{text = "Los Santos Customs", color = 0, sprite = 72, coord = vector3(714.01, -1082.67, 22.33)},
-	{text = "Los Santos Customs", color = 0, sprite = 72, coord = vector3(-1135.07, -1984.93, 13.17)},
-	{text = "Los Santos Customs", color = 0, sprite = 72, coord = vector3(1193.45, 2670.64, 37.78)},
-	{text = "Los Santos Customs", color = 0, sprite = 72, coord = vector3(120.33, 6608.87, 31.92)},
-
-
-
-
-
-    -- Los Santos Tuners DLC Teleports. Requires Enforcing of Gamebuild 2372
-
     -- Tuner Garage
     {text = "Tuner Garage", color = 0, sprite = 524, coord = vector3(804.21, -963.61, 42.57)},
-
-    -- Tuner Car Meet 
-    {text = "Tuner Car Meet", color = 0, sprite = 777, coord = vector3(776.35, -1867.26, 52.93)},
-	
-	
-
-    -- The Contract DLC Teleports. Requires Enforcing Of Gamebuild 2545 --
 
     -- Agencies
     {text = "Agency", color = 0, sprite = 826, coord = vector3(-1035.3, -431.42, 39.62)},
@@ -245,52 +97,13 @@ local blips = {
     -- Record A Studios
     {text = "Record A Studios", color = 0, sprite = 819, coord = vector3(-841.51, -229.07, 37.27)},
 	
-	
-	
-	
-    -- Therapist Office 
-    {text = "Therapist Office", color = 0, sprite = 205, coord = vector3(-1902.15, -564.28, 11.82)},
-	
     -- Solomon's Office 
     {text = "Solomon's Office", color = 0, sprite = 475, coord = vector3(-1011.41, -479.98, 39.97)},
-	
-    -- Torture Room 
-    --{text = "Torture Room", color = 0, sprite = 458, coord = vector3(960.57, -2185.24, 30.5)},
-	
-	
-	-- Banks 
-    {text = "Bank", color = 0, sprite = 207, coord = vector3(-115.09, 6458.77, 31.47)},
-	{text = "Bank", color = 0, sprite = 207, coord = vector3(229.91, 214.37, 105.56)},
-	
-	-- Union Depository 
-    {text = "Union Depository", color = 0, sprite = 50, coord = vector3(-88.81, -677.03, 35.23)},
-	
-	
-	
--- THE CRIMINAL ENTERPRISE DLC
-
-
-	-- Farmhouse Interior  
-    {text = "Farmhouse Interior", color = 0, sprite = 84, coord = vector3(1930.07, 4634.88, 40.47)},
-
-	
----- LOS SANTOS DRUG WARS DLC
-
-	-- Drug RV
-  --  {text = "Drug RV", color = 0, sprite = 499, coord = vector3(2318.85, 2553.79, 47.69)},
-	
-	
-	-- Freakshop
-  --  {text = "Freakshop Hideout", color = 0, sprite = 473, coord = vector3(599.0, -426.12, 266.14)},
-	
-	-- Vinewood Rooftop
-  --  {text = "Vinewood Rooftop", color = 0, sprite = 184, coord = vector3(-271.73, 289.52, 104.99)},
-
 }
 
 -- Don't edit below this line.
 
-Citizen.CreateThread(function()
+CreateThread(function()
 	for i,var in pairs(blips) do
 		var.blip = AddBlipForCoord(var.coord.x, var.coord.y, var.coord.z)
 		SetBlipAsShortRange(var.blip, true)

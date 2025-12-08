@@ -3,7 +3,7 @@
 
 
 -- Nightclub (Mission Row)
-Citizen.CreateThread(function()
+CreateThread(function()
     -- Getting the object to interact with
     AfterHoursNightclubs = exports['bob74_ipl']:GetAfterHoursNightclubsObject()
 

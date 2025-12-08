@@ -2,7 +2,7 @@
 -- Use https://github.com/Bob74/bob74_ipl/wiki to edit below
 
 -- Meth Lab (South Los Santos Docks)
-Citizen.CreateThread(function()
+CreateThread(function()
     -- Getting the object to interact with
     BikerMethLab = exports['bob74_ipl']:GetBikerMethLabObject()
 

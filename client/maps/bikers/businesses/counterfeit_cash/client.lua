@@ -2,7 +2,7 @@
 -- Use https://github.com/Bob74/bob74_ipl/wiki to edit below
 
 -- Counterfeit Cash Factory (Vespucci)
-Citizen.CreateThread(function()
+CreateThread(function()
     -- Getting the object to interact with
         BikerCounterfeit = exports['bob74_ipl']:GetBikerCounterfeitObject()
 

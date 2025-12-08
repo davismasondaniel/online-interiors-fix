@@ -2,7 +2,7 @@
 -- Use https://github.com/Bob74/bob74_ipl/wiki to edit below
 
 -- Maze Bank West (Del Perro)
-Citizen.CreateThread(function()
+CreateThread(function()
     -- Getting the object to interact with
     ImportCEOGarage4 = exports['bob74_ipl']:GetImportCEOGarage4Object()
 

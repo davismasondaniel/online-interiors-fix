@@ -2,7 +2,7 @@
 -- Use https://github.com/Bob74/bob74_ipl/wiki to edit below
 
 -- Lom Bank (Del Perro)
-Citizen.CreateThread(function()
+CreateThread(function()
     -- Getting the object to interact with
 	FinanceOffice3 = exports['bob74_ipl']:GetFinanceOffice3Object()
 

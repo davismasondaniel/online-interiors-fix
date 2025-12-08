@@ -2,7 +2,7 @@
 -- Use https://github.com/Bob74/bob74_ipl/wiki to edit below
 
 -- Gang (N/A)
-Citizen.CreateThread(function()
+CreateThread(function()
     BikerGang = exports['bob74_ipl']:GetBikerGangObject()
 
     -- Name
