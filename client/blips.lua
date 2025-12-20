@@ -61,7 +61,6 @@ local blips = {
     {text = "Crate Warehouse", color = 0, sprite = 473, coord = vector3(274.54, -3015.40, 5.70)},
 
     -- Clubhouses
-    {text = "Clubhouse", color = 0, sprite = 492, coord = vector3(973.487, -101.972, 74.850)},
     {text = "Clubhouse", color = 0, sprite = 492, coord = vector3(-38.47, 6419.88, 31.49)},
     {text = "Clubhouse", color = 0, sprite = 492, coord = vector3(1737.78, 3709.592, 34.14)},
 
@@ -82,17 +81,14 @@ local blips = {
 
     -- Doomsday Facility
     {text = "Doomsday Facility", color = 0, sprite = 548, coord = vector3(-356.04, 4823.27, 142.74)},
-
-    -- Cinema
-    {text = "Cinema", color = 0, sprite = 135, coord = vector3(342.2, 170.33, 352.37)},
 	
     -- Tuner Garage
     {text = "Tuner Garage", color = 0, sprite = 524, coord = vector3(804.21, -963.61, 42.57)},
 
     -- Agencies
-    {text = "Agency", color = 0, sprite = 826, coord = vector3(-1035.3, -431.42, 39.62)},
-    {text = "Agency", color = 0, sprite = 826, coord = vector3(384.8140, -60.7270, 102.3630)},
-    {text = "Agency", color = 0, sprite = 826, coord = vector3(-1003.9110, -759.6040, 60.894190)},
+    {text = "Agency", color = 0, sprite = 826, coord = vector3(-1016.5829, -413.2354, 39.6161)},
+    {text = "Agency", color = 0, sprite = 826, coord = vector3(389.9896, -76.1574, 68.1805)},
+    {text = "Agency", color = 0, sprite = 826, coord = vector3(-1011.8665, -734.1970, 21.5298)},
 
     -- Record A Studios
     {text = "Record A Studios", color = 0, sprite = 819, coord = vector3(-841.51, -229.07, 37.27)},
