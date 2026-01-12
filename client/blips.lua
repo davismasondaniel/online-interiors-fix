@@ -100,15 +100,17 @@ local blips = {
 -- Don't edit below this line.
 
 CreateThread(function()
-	for i,var in pairs(blips) do
-		var.blip = AddBlipForCoord(var.coord.x, var.coord.y, var.coord.z)
-		SetBlipAsShortRange(var.blip, true)
-		SetBlipSprite(var.blip, var.sprite)
-		SetBlipColour(var.blip, var.color)
-		SetBlipDisplay(var.blip, 4)
-		SetBlipScale(var.blip, 0.9)
-		BeginTextCommandSetBlipName("STRING")
-		AddTextComponentString(var.text)
-		EndTextCommandSetBlipName(var.blip)
-	end
+    for _, info in pairs(blips) do
+        local blip = AddBlipForCoord(info.coord.x, info.coord.y, info.coord.z)
+        
+        SetBlipSprite(blip, info.sprite)
+        SetBlipDisplay(blip, 4)
+        SetBlipScale(blip, 0.8) -- You can adjust the size here
+        SetBlipColour(blip, info.color)
+        SetBlipAsShortRange(blip, true)
+
+        BeginTextCommandSetBlipName("STRING")
+        AddTextComponentString(info.text)
+        EndTextCommandSetBlipName(blip)
+    end
 end)
